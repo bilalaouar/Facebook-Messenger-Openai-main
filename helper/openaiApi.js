@@ -26,7 +26,7 @@ console.log(content)
   } catch (error) {
     return {
       status: 0,
-      response: '  مرحبا بك، الروبوت قيد الصيانة حاليا. للمزيد من التفاصيل تواصل معنا على موقعنا الإلكتروني www.aouartech.site'
+      response: ' مرحبا بك، الروبوت لايدعم الصور، تظهر هذه الرسالة في حالة قمت بإرسال صورة www.aouartech.site'
     };
   }
 };
